@@ -15,7 +15,7 @@ export function Header() {
           <Link href="/projects" className="text-sm hover:text-gray-300">
             projects
           </Link>
-          <Link href="/visitors" className="text-sm hover:text-gray-300">
+          <Link href="/friends" className="text-sm hover:text-gray-300">
             friends
           </Link>
           <button className="text-sm" aria-label="Toggle theme">
