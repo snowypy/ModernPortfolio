@@ -10,7 +10,7 @@ interface Friend {
 
 const friends: Friend[] = [
   {
-    blinkyUrl: "https://github.com/snowypy/ModernPortfolio/blob/master/public/blinkies/snowy.gif?raw=true",
+    blinkyUrl: "https://github.com/snowypy/ModernPortfolio/blob/master/public/badges/snowy.gif?raw=true",
     personalSiteUrl: "https://snowyjs.lol",
   },
   {
