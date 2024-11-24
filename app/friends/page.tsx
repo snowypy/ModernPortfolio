@@ -10,7 +10,7 @@ interface Friend {
 
 const friends: Friend[] = [
   {
-    blinkyUrl: "",
+    blinkyUrl: "https://github.com/snowypy/ModernPortfolio/blob/master/public/blinkies/snowy.gif?raw=true",
     personalSiteUrl: "https://snowyjs.lol",
   },
   {
@@ -30,7 +30,7 @@ export default function Blinkies() {
 
   return (
     <main className="py-8">
-      <h1 className="text-3xl font-bold mb-8 text-center">Blinkies</h1>
+      <h1 className="text-3xl font-bold mb-8 text-center">My Friends</h1>
       <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-6">
         {friends.map((friend, index) => (
           <motion.a
@@ -47,7 +47,8 @@ export default function Blinkies() {
             <img
               src={friend.blinkyUrl}
               alt={`Blinky for ${friend.personalSiteUrl}`}
-              className="rounded-lg shadow-lg"
+              className="w-full h-auto shadow-lg"
+              style={{ borderRadius: 0 }}
             />
           </motion.a>
         ))}
