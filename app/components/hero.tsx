@@ -26,11 +26,11 @@ export function Hero() {
       <style jsx>{waveAnimation}</style>
       <div className="relative w-full h-[150px] rounded-lg overflow-hidden mb-8">
         <div className="absolute top-2 right-2 bg-black/70 text-white text-xs py-1 px-2 rounded-md z-10">
-          need to add local time :/
+          {new Date().toLocaleTimeString('en-US', { timeZone: 'America/Chicago', hour: 'numeric', minute: 'numeric', hour12: true })}
         </div>
         <Image
           src={banner}
-          alt="Chicago Map"
+          alt="banner"
           layout="fill"
           objectFit="cover"
         />

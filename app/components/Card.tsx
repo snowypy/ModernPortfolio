@@ -13,4 +13,3 @@ export function Card({ title, children }: CardProps) {
     </div>
   )
 }
-
